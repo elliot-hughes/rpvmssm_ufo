@@ -1,0 +1,15 @@
+# 10j final state: gluino pair production with off-shell squarks
+import model RPVMSSM_UFO
+launch RPVgluino_dec
+madspin=ON
+done
+cards/param_card.zero.dat
+set mgo 300
+set mneu1 180
+set Msu4 1000
+set rldd1x1x2 0.01
+set rldd1x2x1 -0.01
+compute_widths 1000021 --body_decay=3.1
+compute_widths 1000022 --body_decay=3.1
+cards/madspin_card_rpvgluino.dat
+done

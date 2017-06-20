@@ -1,0 +1,4 @@
+# 10j final state: gluino pair production with off-shell squarks
+import model RPVMSSM_UFO
+generate p p > go go
+output RPVgluino_dec

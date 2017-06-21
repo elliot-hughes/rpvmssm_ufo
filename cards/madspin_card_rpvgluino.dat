@@ -25,7 +25,7 @@ decay t~ > w- b~, w- > all all
 decay w+ > all all
 decay w- > all all
 decay z > all all
-decay go > u u~  n1
+decay go > u u~  n1, n1 > u d s
 decay n1 > u d s
 
 # running the actual code

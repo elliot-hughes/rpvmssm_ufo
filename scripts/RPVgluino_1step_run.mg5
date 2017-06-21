@@ -9,7 +9,6 @@ set rldd1x1x2 0.01
 set rldd1x2x1 -0.01
 compute_widths 1000021 --body_decay=3.1
 compute_widths 1000022 --body_decay=3.1
-
-# add HT cuts with "set htmin 1000"
-
+set ihtmin 700
+set nevents 100000 
 done

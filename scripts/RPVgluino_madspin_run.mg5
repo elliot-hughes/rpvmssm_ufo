@@ -12,4 +12,6 @@ set rldd1x2x1 -0.01
 compute_widths 1000021 --body_decay=3.1
 compute_widths 1000022 --body_decay=3.1
 cards/madspin_card_rpvgluino.dat
+set ptheavy 350
+set nevents 100000 
 done

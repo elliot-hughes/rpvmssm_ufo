@@ -1,0 +1,14 @@
+# 10j final state: gluino pair production with off-shell squarks
+launch sgto5j
+done
+cards/param_card.zero.dat
+set mgo 350
+set mneu1 210
+set Msu4 1000
+set rldd1x1x2 0.01
+set rldd1x2x1 -0.01
+compute_widths 1000021 --body_decay=3.1
+compute_widths 1000022 --body_decay=3.1
+set ihtmin 700
+set nevents 100000 
+done

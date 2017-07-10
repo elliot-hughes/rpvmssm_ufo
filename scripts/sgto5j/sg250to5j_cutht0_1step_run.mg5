@@ -1,5 +1,5 @@
 # 10j final state: gluino pair production with off-shell squarks
-launch sgto5j
+launch sgto5j --name=sg250to5j_cutht0 -c
 done
 cards/param_card.zero.dat
 set mgo 250

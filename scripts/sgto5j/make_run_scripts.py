@@ -27,15 +27,17 @@ def make_new_script(f_in, args, f_out):
 def main():
 	for gmass in gmasses:
 		for htcut in [0, 700]:
-			name = "sg{}to5j_cutht{}_1step_run.mg5".format(gmass, htcut)
+			name = "sg{}to5j_cutht{}".format(gmass, htcut)
+			name_full = "{}_1step_run.mg5".format(name)
 			make_new_script(
 				"sgto5j_1step_run.template",
 				{
+					"name": name,
 					"gmass": gmass,
 					"hmass": int(gmass*hmass_ratio),
 					"htcut": htcut,
 				},
-				name
+				name_full
 			)
 	return True
 # :FUNCTIONS
